@@ -2,7 +2,7 @@
 
 ## Description
 
-The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in (OpenScreenplayFormat)[https://github.com/OpenScreenplayFormat/osf-sdk] into Godot and easily create visual novel style cutscenes.
+The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in [OpenScreenplayFormat](https://github.com/OpenScreenplayFormat/osf-sdk) into Godot and easily create visual novel style cutscenes.
 
 ## Installation
 * Download the `screenplayer` folder from this repo.
@@ -36,7 +36,7 @@ The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in (O
 	* The animations for the other states do not necessarily need to be created. These are created in case you need anything other than the sprite frames changed for a specific state. For example: adding a sound effect when a character goes into "laughs" state.
 
 ### Preparing the ScenePlayer
-* With your Locations and Characters added, you can adjust the settings for the ScenePlayer.
+With your Locations and Characters prepared, your cutscene will be ready to play. If `Play On Ready` is enabled, you can simply start and view your scene, or change the below settings to modify how your `ScenePlayer` functions.
 
 #### ScenePlayer Settings
 
@@ -46,8 +46,6 @@ The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in (O
 * `Characters`: A Dictionary containing your characters with their name as it will appear in-game in the dialogue box. If you would like to change how the name is displayed (eg. "Name" instead of "NAME"), change the value for key `"name"` here for the character.
 
 **ScenePlayer Settings**
-
-With your Locations and Characters prepared, your cutscene will be ready to play. If `Play On Ready` is enabled, you can simply start and view your scene, or change the below settings to modify how your `ScenePlayer` functions.
 
 * `Dialogue Box Scene`: A reference to the Dialogue Box that will be used when playing your scene. If left empty, this will default to the default dialogue box found in `addons/screenplayer/dialogue_box/dialogue_box.tscn`.
 	* If you create your own Dialogue box, ensure that it has the following variables pointing to the correct nodes:
