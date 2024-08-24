@@ -12,7 +12,7 @@ The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in [O
 ## Usage
 
 ### Preparing your screenplay
-* Create the screenplay for your scene using (Fade In)[https://www.fadeinpro.com/], or any screenplay software that supports export to OpenScreenplayFormat. Export your script as `XML (Open Screenplay Format)`.
+* Create the screenplay for your scene using [Fade In](https://www.fadeinpro.com/), or any screenplay software that supports export to OpenScreenplayFormat. Export your script as `XML (Open Screenplay Format)`.
 	* Note: The free trial of (Fade In)[https://www.fadeinpro.com] allows you to create scripts and export to Open Screenplay Format XML without restriction.
 	* If you wish to use scene numbers to specify a scene in ScreenPlayer, make sure to enable scene numbers in Fade in by navigating to `Production > Scene Numbering...` and then lock scene numbers by navigating to `Production > Lock Scene Numbers`. **Using a scene number in ScreenPlayer will not work unless scene numbers are locked prior to export**.
 * Import your exported XML file into your Godot project.
