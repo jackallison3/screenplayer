@@ -1,0 +1,118 @@
+[gd_scene load_steps=3 format=3 uid="uid://k1qg16llwmjt"]
+
+[ext_resource type="Theme" uid="uid://ckeu2vfxcih8" path="res://addons/screenplayer/dialogue_box/theme/dialogue_box_theme.tres" id="1_4xwmu"]
+[ext_resource type="Script" path="res://addons/screenplayer/dialogue_box/dialogue_box.gd" id="2_yytuq"]
+
+[node name="DialogueBox" type="Control"]
+z_index = 1
+layout_mode = 3
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -268.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 3
+theme = ExtResource("1_4xwmu")
+script = ExtResource("2_yytuq")
+
+[node name="DialoguePanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="DialoguePanelContainer"]
+layout_mode = 2
+theme = ExtResource("1_4xwmu")
+theme_type_variation = &"DialoguePanel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DialoguePanelContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="DialoguePanelContainer/Panel/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="HBoxContainer" type="HBoxContainer" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Control" type="Control" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="DialogueLabel" type="RichTextLabel" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"DialogueTextLabel"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+
+[node name="Control" type="Control" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="NextIcon" type="Control" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer/VBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer/VBoxContainer/NextIcon"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/bold_font_size = 100
+bbcode_enabled = true
+text = "[center][b]>[/b][/center]"
+fit_content = true
+scroll_active = false
+
+[node name="Control2" type="Control" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer"]
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
+[node name="NamePanelContainer" type="PanelContainer" parent="."]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_left = 50.0
+offset_top = -24.0
+offset_right = 70.0
+offset_bottom = 22.0
+
+[node name="Panel" type="Panel" parent="NamePanelContainer"]
+layout_mode = 2
+theme_type_variation = &"NamePanel"
+
+[node name="MarginContainer" type="MarginContainer" parent="NamePanelContainer"]
+layout_mode = 2
+
+[node name="NameLabel" type="RichTextLabel" parent="NamePanelContainer/MarginContainer"]
+clip_contents = false
+layout_mode = 2
+theme_type_variation = &"NameTextLabel"
+fit_content = true
+scroll_active = false
+autowrap_mode = 0

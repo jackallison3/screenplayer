@@ -1,0 +1,53 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://ckeu2vfxcih8"]
+
+[ext_resource type="FontFile" uid="uid://dg04djp0mhjrk" path="res://addons/screenplayer/dialogue_box/theme/font/PixelOperator-Bold.ttf" id="1_71lv6"]
+[ext_resource type="FontFile" uid="uid://c3hmp0ys45hx1" path="res://addons/screenplayer/dialogue_box/theme/font/PixelOperator.ttf" id="1_e0t15"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yuq30"]
+bg_color = Color(0.0313726, 0.0666667, 0.129412, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t2bu3"]
+bg_color = Color(0.121569, 0.521569, 0.733333, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 10
+corner_radius_bottom_right = 10
+expand_margin_left = 10.0
+expand_margin_right = 10.0
+shadow_size = 3
+
+[resource]
+default_font = ExtResource("1_e0t15")
+default_font_size = 20
+DialoguePanel/base_type = &"Panel"
+DialoguePanel/styles/panel = SubResource("StyleBoxFlat_yuq30")
+DialogueTextLabel/base_type = &"RichTextLabel"
+DialogueTextLabel/font_sizes/bold_italics_font_size = 30
+DialogueTextLabel/font_sizes/italics_font_size = 30
+DialogueTextLabel/font_sizes/mono_font_size = 30
+DialogueTextLabel/font_sizes/normal_font_size = 30
+MarginContainer/constants/margin_bottom = 10
+MarginContainer/constants/margin_left = 10
+MarginContainer/constants/margin_right = 10
+MarginContainer/constants/margin_top = 10
+NamePanel/base_type = &"Panel"
+NamePanel/styles/panel = SubResource("StyleBoxFlat_t2bu3")
+NameTextLabel/base_type = &"RichTextLabel"
+NameTextLabel/font_sizes/bold_font_size = 25
+NameTextLabel/font_sizes/bold_italics_font_size = 25
+NameTextLabel/font_sizes/italics_font_size = 25
+NameTextLabel/font_sizes/mono_font_size = 25
+NameTextLabel/font_sizes/normal_font_size = 25
+NameTextLabel/fonts/normal_font = ExtResource("1_71lv6")
+RichTextLabel/fonts/bold_font = ExtResource("1_71lv6")
+RichTextLabel/fonts/normal_font = ExtResource("1_e0t15")
