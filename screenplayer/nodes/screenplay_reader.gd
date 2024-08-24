@@ -133,14 +133,10 @@ func load_script_file() -> void:
 						match attributes_dict["basestyle"]:
 							"Action":
 								var action = {}
-								while parser.read() != ERR_FILE_EOF:
-									if parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() == "text":
-										if parser.read() == OK and parser.get_node_type() == XMLParser.NODE_TEXT:
-											action["action"] = parser.get_node_data()
-											raw_scene.append(action)
-										break
-									elif parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() != "text":
-										break
+								var action_text = parse_text(parser)
+								if action_text != "":
+									action["action"] = action_text
+									raw_scene.append(action)
 							"Character":
 								var dialogue = {}
 								while parser.read() != ERR_FILE_EOF:
@@ -162,13 +158,10 @@ func load_script_file() -> void:
 									elif parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() != "text":
 										break
 							"Dialogue":
-								while parser.read() != ERR_FILE_EOF:
-									if parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() == "text":
-										if parser.read() == OK and parser.get_node_type() == XMLParser.NODE_TEXT:
-											raw_scene[raw_scene.size()-1]["dialogue"] = parser.get_node_data()
-										break
-									elif parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() != "text":
-										break
+								var dialogue = {}
+								var dialogue_text = parse_text(parser)
+								if dialogue_text != "":
+									raw_scene[raw_scene.size()-1]["dialogue"] = dialogue_text
 							"Parenthetical":
 								while parser.read() != ERR_FILE_EOF:
 									if parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() == "text":
@@ -205,6 +198,16 @@ func script_post_process() -> void:
 			process_state(line)
 
 	queue_free()
+
+func parse_text(parser: XMLParser) -> String:
+	var text_to_add = ""
+	while parser.read() != ERR_FILE_EOF:
+		if parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() == "text":
+			if parser.read() == OK and parser.get_node_type() == XMLParser.NODE_TEXT:
+				text_to_add += parser.get_node_data()
+		elif parser.get_node_type() == XMLParser.NODE_ELEMENT_END and parser.get_node_name() == "para":
+			break
+	return text_to_add
 
 
 func setup_locations_node() -> void:

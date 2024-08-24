@@ -1,0 +1,3260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="Open Screenplay Format document" version="41">
+  <info uuid="45E45D6D-9360-4693-A5E4-D70E20C29DB6" draft_uuid="72734FAF-E95F-46BE-BA51-D4166A0945C1" pagecount="26"/>
+  <settings page_width="2159" page_height="2794" margin_top="254" margin_bottom="254" margin_left="381" margin_right="254" normal_linesperinch="6.0" element_spacing="1.00" break_on_sentences="true" dialogue_continues="true" dialogue_pagebreaks="true" cont_text="(cont'd)" more_text="(MORE)" scenes_continue="false" continued_text="CONTINUED" number_continued="true" scene_time_separator=" - " page_header="{PageColor}     #." page_footer="" header_alignment="3" footer_alignment="3" header_first_page="false" footer_first_page="true" pages_locked="false" pagenumber_start="1" pagenumber_mode="1AB" revision="1" document_revision="-1" revision_mode="true" show_revisions="all" selected_revisions=""/>
+  <fadein_settings saved_with="4.1.0.1037" last_position="0,0" index_cards_show="2" index_cards_text_size="1" index_cards_use_folders="true" index_cards_use_colors="true" navigator_show="1" navigator_pagecount="1" narrator="" narrator_default="true"/>
+  <styles>
+    <style name="Normal Text" builtin="1" builtin_index="0" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="0.0" linespacing="1.0" align="left" leftindent="0" rightindent="0"/>
+    <style name="Scene Heading" builtin="1" builtin_index="1" basestyle="Normal Text" style_enter="Action" style_tab_after="Action" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="1.0" linespacing="1.0" keepwithnext="1" align="left" leftindent="0" rightindent="0" numbering="true" number_locked="true" use_base_numbering="false" autoomit="false" number_skip_io="false" number_mode="1AB" omitted_text="OMITTED" number_start="1" number_format="#" number_reset_after="0" number_position="3" allcaps="1"/>
+    <style name="Action" builtin="1" builtin_index="2" basestyle="Normal Text" style_tab_before="Character" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="1.0" linespacing="1.0" align="left" leftindent="0" rightindent="0"/>
+    <style name="Character" builtin="1" builtin_index="3" basestyle="Normal Text" style_enter="Dialogue" style_tab_before="Action" style_tab_after="Parenthetical" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="1.0" linespacing="1.0" keepwithnext="1" align="left" leftindent="508" rightindent="64" allcaps="1"/>
+    <style name="Parenthetical" builtin="1" builtin_index="4" basestyle="Normal Text" style_enter="Dialogue" style_tab_before="Dialogue" style_tab_after="Dialogue" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="0.0" linespacing="1.0" keepwithnext="1" align="left" leftindent="381" rightindent="508"/>
+    <style name="Dialogue" builtin="1" builtin_index="5" basestyle="Normal Text" style_enter="Action" style_tab_before="Parenthetical" style_tab_after="Parenthetical" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="0.0" linespacing="1.0" align="left" leftindent="254" rightindent="381"/>
+    <style name="Transition" builtin="1" builtin_index="6" basestyle="Normal Text" style_enter="Scene Heading" style_tab_after="Action" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="1.0" linespacing="1.0" align="right" leftindent="1016" rightindent="102" allcaps="1"/>
+    <style name="Shot" builtin="1" builtin_index="7" basestyle="Normal Text" style_enter="Action" style_tab_after="Action" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="2.0" linespacing="1.0" keepwithnext="1" align="left" leftindent="0" rightindent="0" allcaps="1"/>
+    <style name="Cast List" font="Courier New" size="12" bold="0" italic="0" underline="0" spacebefore="0.0" linespacing="1.0" align="left" leftindent="0" rightindent="0" allcaps="1"/>
+    <style name="New Act" font="Courier New" size="12" bold="1" italic="0" underline="1" spacebefore="1.0" linespacing="1.0" pagebreakbefore="1" align="center" leftindent="0" rightindent="0" allcaps="1"/>
+    <style name="End of Act" font="Courier New" size="12" bold="1" italic="0" underline="1" spacebefore="2.0" linespacing="1.0" align="center" leftindent="0" rightindent="0" allcaps="1"/>
+    <style name="Outline Body" font="Courier New" size="10" bold="0" italic="1" underline="0" spacebefore="0.0" linespacing="1.0" align="left" leftindent="-64" rightindent="0"/>
+    <style name="Outline 1" font="Courier New" size="10" bold="0" italic="1" underline="0" spacebefore="1.0" linespacing="1.0" align="left" leftindent="-64" rightindent="0"/>
+    <style name="Outline 2" font="Courier New" size="10" bold="0" italic="1" underline="0" spacebefore="1.0" linespacing="1.0" align="left" leftindent="-31" rightindent="0"/>
+    <style name="Outline 3" font="Courier New" size="12" bold="1" italic="1" underline="0" spacebefore="1.0" linespacing="1.0" align="left" leftindent="0" rightindent="0"/>
+    <style name="Outline 4" font="Courier New" size="12" bold="1" italic="1" underline="0" spacebefore="1.0" linespacing="1.0" align="left" leftindent="30" rightindent="0"/>
+    <header_style basestyle="Normal Text"/>
+    <footer_style basestyle="Normal Text"/>
+  </styles>
+  <paragraphs>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">FULL-FRAME SD NEWS FOOTAGE:</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>TIGHT on a MIXED MEDIA COLLAGE. Torn photographs and blotches of acrylic, splattered by Spaghetti-O’s. Total Chaos.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>GEMMA, 17, scrutinizes it. SPITS one last Sphaghetti-O. Done.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>50’S MALE VOICE (o.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You sold your first collage at age 12. Profiled in Art in America at 16...</text>
+    </para>
+    <para number="1">
+      <style basestyle="Scene Heading"/>
+      <text>INT. ART STUDIO - DAY</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A REPORTER (50s) sits opposite Gemma. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>reporter</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>..and now your work is on the cover of the biggest record of the year. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma smacks gum, charming and self-possessed. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Is there a question in there?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>reporter</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>laughs</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Fair enough. How about this: where do you find your inspiration?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She mulls it over.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I don’t really think about it. I sit down at the canvas, and I just see what I need to do. And I do it. </text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I guess when I start searching for inspiration, I’ll know I lost it. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>PAUSE on Gemma’s smug face. PULL BACK-- it’s on YouTube, being watched by...</text>
+    </para>
+    <para number="2">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S APARTMENT - DAY</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>GEMMA, 35, at her desk, burnt out, staring vacantly at the footage, wondering when she lost it.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>We drift off her to see what she’s gained: a West Elm sofa. A fiddle-leaf fig. A Peloton. In the BG, a Zoom meeting starts.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Hey there! </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text> MARKETING EXEC (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Hey! Thanks for hopping on.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>For sure. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A hot coffee on her sticky note-covered desk. And 3 old ones.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">An unopened set of high-grade Japanese knives, next to a torn-open Amazon box.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC (O.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>We’re </text>
+      <text italic="1">loving</text>
+      <text> the new pass.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>An Instagrammable humidifier. The EMPTY light is on.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA  (O.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Amazing. Glad it’s playing. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A banana hammock holds a rotting black banana.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC (O.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>We do have a few topline notes. I can chat through them now.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A framed photo of Gemma at age 17, gloating beside a ROCK BAND, holding a PLATINUM RECORD PLAQUE. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>One sec. Just loading up the deck.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her mouse CLICKS as we PUNCH CLOSER to the ALBUM ARTWORK on the plaque. It’s her striking, vibrant COLLAGE. </text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">MATCH CUT TO:</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>POSTER THUMBNAILS for a </text>
+      <text revision="1">romantic</text>
+      <text> comedy called “</text>
+      <text revision="1">SACRED HEART</text>
+      <text>”. </text>
+      <marks>
+        <mark at="32" revision="1"/>
+        <mark at="59" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Floating heads. </text>
+      <text revision="1">Lots of pink</text>
+      <text>. </text>
+      <text revision="1">Nuns</text>
+      <text>. The tagline:</text>
+      <marks>
+        <mark at="28" revision="1"/>
+        <mark at="33" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">SHE'S SECOND TO </text>
+      <text revision="1" italic="1">NUN</text>
+      <text>.</text>
+      <marks>
+        <mark at="19" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>These are just fantastic. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The Marketing Exec, 30s, looms in the corner of the screen.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I’m just wondering if we could swap out the font on Option A for something more </text>
+      <text revision="1">soft</text>
+      <text> and </text>
+      <text revision="1">feminine</text>
+      <text>. </text>
+      <marks>
+        <mark at="84" revision="1"/>
+        <mark at="96" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma stares at the bouncy bubble letters on her screen.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Mmm. Right. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>marKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>And can we, like, brighten it up? Just brighter across the board? It has to read as ‘</text>
+      <text revision="1">fun romance</text>
+      <text>’.</text>
+      <marks>
+        <mark at="96" revision="1"/>
+        <mark at="98" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma considers the already-searingly-bright image.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Yeah... we can play with that.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON Gemma’s thousand-yard stare as the Exec prattles on.</text>
+      <marks>
+        <mark at="61" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma stares at her self-view box on the Zoom call. She catches movement behind her. Is there someone else in her apartment? She turns around to look. It's nothing. Probably a glitch. The Exec continues to drone.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MarKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You know what, you should come in! We can ideate on it, and then you can iterate it. Into your next pass. The final pass. Just gotta confirm with the team.</text>
+      <marks>
+        <mark at="155" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma is reactionless.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">QUICK SERIES</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A TO-DO LIST APP opens -- 27 tasks left for the day. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>REMINDERS chime constantly -- people to follow up with, mundane chores to do, projects to complete, and so on. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her stylus dances across her tablet. She flies through fonts.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>THE FRIDGE SWINGS OPEN. She snags a premade organic meal kit.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She inhales the limp, calorie-conscious grain bowl. Refills her coffee. Knocks it back. Fires off emails. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She stretches, cueing a symphony of cracks and pops. Looks around in confusion. </text>
+      <text italic="1">When did the sun set? </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Opens her TO-DO LIST -- 17 tasks left. Her shoulders slump.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">END SERIES</text>
+    </para>
+    <para number="3">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA'S LIVING ROOM - EVENING</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Sunk in her sofa, Gemma doomscrolls. Glances at the Peloton. Considers it. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Opens Postmates. Clicks ‘</text>
+      <text italic="1">Healthy</text>
+      <text>’. Orders a $19 salad. $28 with taxes &amp; fees. </text>
+    </para>
+    <para number="4">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S KITCHEN - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma POPS OPEN the salad container. Her eyes narrow as she slowly lowers her head toward the table.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>There, sitting on the otherwise-spotless surface...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A chewed-up ball of GUM. But before she can even consider it--</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1" italic="1">Bzz. Bzz</text>
+      <text bold="1">.</text>
+      <text> Her phone vibrates. She checks the Caller ID. Double-takes. Takes a deep breath, and eagerly answers.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Hello?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>LAWRENCE, 50s, answers, all slippery charm &amp; positive vibes.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>LAWRENCE (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Is that Gemma?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Lawrence, hi! I’m so... uh, it’s great to hear from you!</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>LAWRENCE (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Yeah. Been a minute, huh? I know it’s late, so I’ll dive right in: the guys are dropping a new record. It’s a total return to form, really an homage to the spirit of their debut. I was chatting with them, and we thought it’d be a cool opportunity to work with you again.   </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s eyes flit across the room, back to the photo of her clutching the record sleeve with the rock band.</text>
+      <text revision="1"> It's off-kilter. Weird. Gemma straightens it.</text>
+      <marks>
+        <mark at="137" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her pulse quickens, but she maintains her composure. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I would absolutely be up for it. And thank you so much for --</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Lawrence (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Incredible. Good stuff. Full disclosure, We do have one other artist pitching on it. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Oh. Anyone I know?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The excitement drains from Gemma’s face...</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>LAWRENCE</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Roland Pike. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma deflates. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Lawrence (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Yeah. He’s blowing up, and I guess he’s a big fan of the guys. The label likes him for it, obviously, but, ya know, he’s expensive. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>burned</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Right.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>LAWRENCE</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Anyway! If you can get me something killer as soon as possible, I can get it in front of them.</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Sound like a plan?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>OFF Gemma, thrilled and terrified in equal measure --</text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">CUT TO:</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A pill bottle POPS OPEN. An ADDERALL tumbles into her palm. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She finds the ALBUM. Slides out the record. Plays it LOUD.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Back to her desk. She props up the sleeve. Cracks her knuckles. </text>
+      <text italic="1">Let’s do this</text>
+      <text>. </text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">CUT TO:</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The record spins in a locked groove at the end of the side.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s fingers drum nervously. She stares at a blank screen. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She crosses to the turntable. Flips the record. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The pill bottle POPS OPEN. A bottle of wine and a mason jar THUD onto the desk. </text>
+      <text italic="1">Let’s do this</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">CUT TO:</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The record spins in a locked groove.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Wine bottle now half-empty. Still staring at a blank screen. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She grabs the bottle, closes her eyes, chugs, and...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>And EXPLODES OUT OF HER CHAIR &amp; SCREAMS.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>FUUUUUUUUUUUCKKK!!!!!!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She BOLTS to the turntable, SMASHES IT with the bottle, RIPS IT OFF THE TABLE, HURLS IT ON THE FLOOR, and STOPS IT OUT.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Two decades of artist’s block erupting like a volcano.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She catches her breath. Whoa. Felt good to let it all out...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CUT WIDE: But what a fucking mess. She should clean this up.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She shimmies around her coffee table -- and SLIPS ON THE SPILLED WINE and PLUNGES TOWARDS THE GROUND...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>BANGING HER HEAD on the coffee table. </text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">CUT TO BLACK.</text>
+    </para>
+    <para number="5">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S APARTMENT - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s eyes peel open, rolling aimlessly. She finds focus.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She sits up, grimacing as she tenderly touches her head. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She lurches to her feet. Staggers towards the hallway...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>... until she notices a TRAIL OF BLOOD leading down it. RED DROPLETS speckling the hardwood.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She checks her head for blood. Nothing. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Uh... hello?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma tip-toes around the blood... advancing down the hallway... following it to... her BEDROOM DOOR.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She pushes it open, revealing...</text>
+    </para>
+    <para number="6">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S BEDROOM - CONTINUOUS</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The “blood” leads to a CAN OF RED PAINT on the floor.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A FIGURE stands in the shadows, facing the back wall. A PAINTBRUSH clutched in hand. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma stares in shock, and on instinct, FLICKS ON the LIGHT.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Light fills the room, revealing an incredible RED GEOMETRIC MURAL stretching across the wall. Gemma’s jaw drops.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>What.. the... fuck.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Voice (O.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You grew up </text>
+      <text italic="1">so</text>
+      <text> fast.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Who are you? What the fuck are you doing in my apartment?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>With the Figure’s back turned, Gemma can’t see their face... </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>voice (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text> Took </text>
+      <text italic="1">years</text>
+      <text> off my life.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text underline="1">Just their edgy haircut</text>
+      <text>... </text>
+      <text underline="1">their paint-splattered overalls hanging from a wispy youthful frame...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The Figure turns... and Gemma’s mind melts as she stares into the face of... TEEN GEMMA. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I want them </text>
+      <text bold="1">back</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s mind short-circuits. Without looking away, she reaches out and FLICKS OFF the light. Nope!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The room is cast into darkness. She waits.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>FLICKS IT BACK ON. Teen Gemma is still standing there, unimpressed as only a teenager can be.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>WIDE ON THE TABLEAU of these two staring at each other. </text>
+    </para>
+    <para number="7">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S LIVING ROOM - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma sits, holding a bag of frozen peas to her head, still in shock.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>REVERSE to see Teen Gemma leaning against the opposite wall. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I gotta be honest. I thought you’d be farther along by now. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma just stares in disbelief.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You hit your head pretty hard, huh?</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>It’s simple. I’m you, back before you became...</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>looks her up and down</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Whatever </text>
+      <text revision="1" underline="1">this</text>
+      <text revision="1"> is.</text>
+      <text> </text>
+      <marks>
+        <mark at="17" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Uh, excuse me? What does that mean?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I’ve been watching you. For years. And I’ve got bad news. What’s holding you back isn’t something good work ethic can fix.</text>
+      <text revision="1"> In fact, even thinking about things like "work ethic" might be part of the problem.</text>
+      <text> Cuz you’ve lost ‘</text>
+      <text italic="1">it</text>
+      <text>’. You used to be reckless. You used to not give </text>
+      <text italic="1">a fuck</text>
+      <text>. But you went soft. Got comfortable. Took the money.</text>
+      <text revision="1"> Bought all this shit.</text>
+      <marks>
+        <mark at="206" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Teen Gemma picks up an Amazon Echo.</text>
+      <marks>
+        <mark at="35" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">What the fuck is this, even?</text>
+      <marks>
+        <mark at="28" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">Gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">It's actually really cool. It's how I... order toilet paper.</text>
+      <marks>
+        <mark at="60" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Teen Gemma tosses the Echo off.</text>
+      <marks>
+        <mark at="31" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You learned the rules</text>
+      <text revision="1"> so you could break them</text>
+      <text> and</text>
+      <text revision="1"> then you</text>
+      <text> forgot to</text>
+      <text revision="1"> keep</text>
+      <text> break</text>
+      <text revision="1">ing</text>
+      <text> </text>
+      <text revision="1">th</text>
+      <text>em. You’re so safe, you’re like a fuckin’ art traffic cop. It’s why nobody gives a shit about your work. Because you make nobody feel anything. Even you.</text>
+      <marks>
+        <mark at="0" revision="1"/>
+        <mark at="45" revision="1"/>
+        <mark at="66" revision="1"/>
+        <mark at="85" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Ouch. Gemma is so burned to her core, it overtakes the fear.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TeEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You know what? That was too much.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma sits on the coffee table, gets on her level, and picks up the wad of gum. She pops it in her mouth. Gross.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Hear me out. What if. You and me. Worked </text>
+      <text italic="1">together</text>
+      <text>? Is that too crazy? </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You and m-- sorry, what?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Look, I can go bury myself in the back of your mind </text>
+      <text italic="1">right now</text>
+      <text>. And you can go back to doing whatever it is you do. </text>
+      <text italic="1">Or </text>
+      <text>I stay, and we can make some really cool shit. </text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>she leans in</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Your choice.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A beat.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>hushed</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I wanna... make cool shit. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma CLAPS her hands, launching back to her feet.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>FUCK YEAH. That’s what I’m talking about! </text>
+      <text revision="1">You've turned into such a rule-follower</text>
+      <text>, so</text>
+      <text revision="1"> to keep you comfortable</text>
+      <text> let’s set some ground rules. </text>
+      <marks>
+        <mark at="81" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>gestures around the room</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You’ve got your whole life going on here, and I don’t want to intrude. So I’ll hang out on the sidelines. Shadow you. And if I want to jump in, I’ll just raise my hand.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma raises her hand like she’s waiting to get called on in class. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Like this. Then you just... call on me. You tap out, I tap in.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>So I just...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She tentatively points towards her, trying it out.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma smiles greedily.</text>
+    </para>
+    <para number="8">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S LIVING ROOM - THE NEXT DAY</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON Gemma’s eyes opening. She struggles upright on the sofa, touches her bruised forehead, and grimaces. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Squinting into the midday sun pouring through the windows.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She looks around at the mess from last night. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She looks down at her hands -- dried up RED PAINT on them. </text>
+    </para>
+    <para number="9">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S BEDROOM - MOMENTS LATER</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma enters, to see the RED GEOMETRIC MURAL in eye-popping detail, covering almost the entire wall of her bedroom. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma stands perfectly still. Looks betraying nothing.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">Ding! </text>
+      <text>Gemma’s phone chimes with a Calendar reminder.</text>
+      <text italic="1"> </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Shit!</text>
+    </para>
+    <para number="10" note="MARKETING EXEC&#xA;Yeah. I just want it to really POP. There's just so much content on the service. &#xA;&#xA;the rom com version vs the thriller. line&#xA;&#xA;">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">EXT. MARKETING FIRM - DAY</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma pulls up in her boxy, practical Kia Soul. </text>
+    </para>
+    <para number="11">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. MARKETING FIRM BOARDROOM - DAY</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>We FOLLOW a buttoned-up INTERN as he hustles through a glass doorway and hands out water bottles to a table of hip execs. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MarKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>These are the fonts we’re really excited about.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A TV with FONT OPTIONS. Gemma’s face is frozen in a forced smile. Her forehead bruise is carefully covered by her hair. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I totally get it. Helps to see it in person. Thanks for having me come into the office. For this.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Smiles all around.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>But there’s </text>
+      <text italic="1">more</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>More?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>See, what’s so neat about </text>
+      <text revision="1">SACRED HEART</text>
+      <text> is that it isn’t </text>
+      <text italic="1">just </text>
+      <text>a </text>
+      <text revision="1">rom-com</text>
+      <text>. It’s </text>
+      <text italic="1">also</text>
+      <text> a high-octane action flick. It </text>
+      <text italic="1">crosses</text>
+      <text> genres</text>
+      <text italic="1">.</text>
+      <text revision="1" italic="1"> </text>
+      <text revision="1">We need something hard and masculine.</text>
+      <marks>
+        <mark at="38" revision="1"/>
+        <mark at="70" revision="1"/>
+        <mark at="166" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">GEMMA</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Weren't we going soft and feminine?</text>
+      <marks>
+        <mark at="34" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Right. That too. </text>
+      <text>So we’re gonna need you to make </text>
+      <text revision="1">another</text>
+      <text> thumbnail.</text>
+      <marks>
+        <mark at="17" revision="1"/>
+        <mark at="56" revision="1"/>
+        <mark at="66" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Oh. So like a whole new poster?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Exec 2 (O.S.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I can speak to that.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Another Exec, male, 40s, sits across from her, jumps in.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Exec 2</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Consumers of action content on the platform gravitate toward greased-up, jacked male characters. And tons of sparks in the background. Red-orange sparks. Like there was just an explosion, and our big guy does not give </text>
+      <text italic="1">a crap</text>
+      <text>. Burning embers, too.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>nodding</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Or like, cinders. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>exec 2</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>frowning</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Maybe. I’d have to see it.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma swallows her pride.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Ok. Well. I’ll put something togeth-</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>His phone CHIRPS. He checks it. Holds up a single finger. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma sinks into herself until a </text>
+      <text bold="1">BANG </text>
+      <text>catches her attention.     </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She glances up... and freezes. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>GEMMA’S POV: RACK FOCUS past Exec 2, to see TEEN GEMMA in the INTERN’S BUTTON-UP, behind the glass with a closed fist.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Oh my God, this is so gay.</text>
+      <marks>
+        <mark at="26" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">geMMA</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">We don't really say things like that any more.</text>
+      <marks>
+        <mark at="46" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">exec 2</text>
+      <marks>
+        <mark at="6" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">I'm sorry?</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Nothing. Never mind.</text>
+      <marks>
+        <mark at="20" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The sound DROPS OUT. Gemma is frozen in disbelief. Utterly gut-punched. </text>
+      <text italic="1">It can’t be...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma slowly raises her hand. And stands there.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Waiting. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s eyes flit back to the Exec, who finishes his email and sets his phone aside... but it immediately RINGS. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>ExEC 2</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Ah. You mind if I take this?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON Gemma, seething, eyes locked with her maniacally grinning younger self. She nods the slightest nod. Let’s </text>
+      <text italic="1">go</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>HOLD on GEMMA’S FACE as an INCREDIBLE TRANSFORMATION occurs. Energy surges through her. Gemma’s repressed anger contorts into Teen Gemma’s devious give-no-fucks resting face.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">Teen</text>
+      <text> Gemma takes in the room. Looks at her hands. Malicious.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/teen Gemma</text>
+      <marks>
+        <mark at="16" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Do you know how many jerkoff meetings I’ve had with jerkoff middle managers who think they’re creative because they think sparks look cool and like the contrast between orange and blue?</text>
+      <text revision="1"> </text>
+      <text>Do you know how many necks I’ve airbrushed off of floating heads?</text>
+      <text revision="1"> Do you know how many times I've had to create "options" for brainless execs who change their minds on a whim? Do you know how much free work I've had to churn out because you matcha-sipping morons can't make up your minds? Do you know why you can't make up your minds? Because you don't have them. Nothing but air between those ears.</text>
+      <text> Do I really need to sit here and beg you for the right to mock up some limp-dick thumbnail?</text>
+      <marks>
+        <mark at="0" revision="1"/>
+        <mark at="585" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her rant draws the attention of other execs, all mortified.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>It’s one thing to waste my talent, it’s another to waste my time. So yeah. I mind.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Exec 2 stares back at her, shell-shocked.   </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>ExeC 2</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I guess cinders could work.  </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>The only way you’ll get cinders, sparks, or embers out of me is if I burn this office down and piss on the ashes.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma reads the room. Dead quiet. She turns back to the MARKETING EXEC, who’s fuming.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>MARKETING EXEC</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Get the fuck out. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma cracks her neck and gets up out of her seat.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Do you guys validate?</text>
+    </para>
+    <para number="12">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S APARTMENT - LATE AFTERNOON</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma shuts her front door, heart racing, invigorated.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I feel fucking </text>
+      <text italic="1">incredible</text>
+      <text>. What happened back there? </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma arranges a row of CANVASES along the wall. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TeEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Oh, we killed it. Destroyed. Burned down the house.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Whoa. No shit? How’d it end? </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">I was perfect. You'll never hear from them again.</text>
+      <marks>
+        <mark at="49" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma's mouth goes agape.</text>
+      <marks>
+        <mark at="25" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">GEMMA</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">But I need that job to make rent.</text>
+      <marks>
+        <mark at="33" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I forgot, did we make a pact to debase ourselves in Photoshop, or did we make a pact to make some fucking art?</text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You’ve already burned a day. Lawrence is waiting.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma shakes it off. This is what she wanted, at least she thinks.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma picks up the bottle of Adderall.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">What is this trash anyway? What happened to Ritalin? That was the good shit.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma stares at the canvases, apprehensive.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I haven’t done collage in years. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma flashes a winning smile. Crosses to Gemma and places a paintbrush in her hand.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You take the wheel. I’ll navigate. Let’s just see where we end up.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">MONTAGE:</text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma lines out the rule of thirds with a charcoal pencil.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma</text>
+      <text revision="1"> hovers over the Vitamix with a can of paint.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">Gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Hang on, that will ruin my Vitamix.</text>
+      <marks>
+        <mark at="35" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">Teen gemma</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text revision="1">mocking</text>
+      <marks>
+        <mark at="7" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">"That will wuin my Vitamix!"</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Teen Gemma</text>
+      <text> dumps </text>
+      <text revision="1">the paint</text>
+      <text>. BLENDS on HIGH.</text>
+      <marks>
+        <mark at="10" revision="1"/>
+        <mark at="25" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma flips through old magazines. Finds a mattress ad. Uses an X-Acto knife to carve out a snoozing man.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma grabs a serrated bread knife to SAW OFF a branch of the fiddle leaf fig tree. She squirts acrylic all over it, and presses it on a canvas, leaving a STAMP of its VEINS.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma looks on, in awe at how </text>
+      <text italic="1">easy </text>
+      <text>Teen Gemma makes it look. She honestly looks like she’s just fucking around, not giving too it too much thought-- or maybe even </text>
+      <text italic="1">any </text>
+      <text>thought?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma, energized, rummages through her closet, grabs a 2x4 wood block, and wraps it with rope twine. She coats it in paint and imprints it, leaving what looks like gashes.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma looks on, proud. Damn, girl. </text>
+    </para>
+    <para number="13">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S KITCHEN - LATE NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>FLASH! A burst of light dissipates as Gemma lowers her Phone. Teen Gemma huddles next to her, relishing the final results.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Fuck yeah. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>It’s perfect. Let’s send it.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The ALBUM ARTWORK sits on an easel, away from camera.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Maybe we should wait until morning, give it one more --</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>It’s. Perfect.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma</text>
+      <text revision="1"> curls her lip, clearly not quite happy with the work. She slumps onto a chair in teen angst.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma doesn't even notice in her newfound confidence.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She hits SEND. Slumps into a chair, fighting heavy eyelids. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>God, I want this. If we get this, it could change </text>
+      <text italic="1">everything</text>
+      <text>. Get me -- </text>
+      <text italic="1">us</text>
+      <text> -- back to doing real shit. Shit that, like, fucking matters...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma nods slowly. Mulling it over.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>And if we don’t get it?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma shakes her head and opens her mouth to respond -- but lets out a massive yawn instead.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text revision="1">re: yawn</text>
+      <marks>
+        <mark at="8" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">What's wrong with you? What's that? You're not pussing out on me, are you?</text>
+      <marks>
+        <mark at="74" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Somewhere in our 20s, we stopped pulling all-nighters.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma turns away. Shifts her weight. Then turns back, face plastered with a casual smile.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">At least let me </text>
+      <text>take over for the night?</text>
+      <marks>
+        <mark at="16" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>nods down the hallway</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I still need to finish my mural. And you should really get some sleep.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Tonight? It’s like 9:30.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>We used to know how to rally.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma raises her hand expectantly. Gemma shrugs. </text>
+      <text italic="1">Can’t argue with that</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>pointing to her</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Have fun. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>PAN OVER to see Gemma smiling with a touch of menace.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I always do. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">She eyes Gemma's phone on the table. Snatches it, conspiratorially.</text>
+      <marks>
+        <mark at="67" revision="1"/>
+      </marks>
+    </para>
+    <para number="14">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT</text>
+      <text>. </text>
+      <text bold="1">GEMMA'S BEDROOM - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>MUSIC UP as Gemma/Teen Gemma opens the closet. It all sucks.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON a drawer opening, revealing a set of scissors. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She grabs an old T-shirt and jeans and chops ‘em to bits.</text>
+    </para>
+    <para number="15">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA'S BATHROOM - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma sticks her head in the sink under the running water. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She squeezes a shitload of gel into her hand. Slicks her hair back into an edgy ‘wet hair look’. It’s oddly sort of badass.  </text>
+    </para>
+    <para number="16">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA'S APARTMENT - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">CLOSE ON Gemma's hand tearing open the box of Japanese knives.</text>
+      <marks>
+        <mark at="62" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON Gemma’s hand grabbing her car keys off a wall hook.</text>
+    </para>
+    <para number="17">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT/EXT. GEMMA’S KIA SOUL - SERIES</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She starts the engine. Grabs the wheel with both hands, with the stiffness of a kid who just got her learner’s permit.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She looks at the controls, baffled. Finds the clutch, and...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>THROWS it into reverse and shodily PEELS out of her parking spot, smoke billowing out of the boxy little car. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Cranks the stereo, blasting mid-2000s pop with a maniac grin.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She bombs down an empty street, swerving in and out of her lane as she applies dark eyeshadow in the rearview mirror, cutting off the next car over.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Guy IN CAR</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>WATCH THE FUCKING ROAD, LADY!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She bombs through an intersection, running a red light.</text>
+    </para>
+    <para number="18">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. DIVE BAR - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma emerges into a dimly-lit, sparsely-populated dive bar.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A sly, intimidating smile on her face. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">She looks down at her phone. On screen is Roland Pike's Instagram Story, a filtered pic of his hand holding an IPA.</text>
+      <marks>
+        <mark at="114" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She scans the thin crowd... and her gaze settles on a MAN in his early 40s, wearing a BEANIE. </text>
+      <text revision="1">Beanie Man's hand is wrapped around the same IPA.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma arches an eyebrow. Intrigued. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She casually drifts through the space and lands at the bar a few stools away from Beanie.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Whiskey. On the Rocks. </text>
+      <text italic="1">Neat</text>
+      <text>.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The bartender eyes her, skeptically.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Bartender</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You said neat </text>
+      <text italic="1">and</text>
+      <text> on the rocks?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Figure it out.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>My kinda gal. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma coolly turns to see Beanie smiling at her. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>And what kinda </text>
+      <text italic="1">gal</text>
+      <text> is that?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I’m not trying to -- “gal” is a term of endearment, it’s not -- I meant “lady” -- er, “woman”.</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Female... person. Human. </text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>We’re all humans.</text>
+      <text revision="1"> Listen, it's 2023. We're all trying our best.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma nods thoughtfully. Looks to the Bartender.</text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>One for him, too. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">LATER</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma and Beanie are cozied up in a booth, a few more drinks deep, flirting and giggling.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A shared laugh peters out. They make eye contact.</text>
+      <marks>
+        <mark at="49" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma leans in for a kiss, too aggressively. It's all tongue, she doesn't know what she's doing. Beanie is taken aback, but still intrigued.</text>
+      <marks>
+        <mark at="140" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>BEANIE</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">That was... interesting. </text>
+      <text>You wanna maybe... get out of here?</text>
+      <marks>
+        <mark at="25" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A beat. Gemma cracks a smile</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Yeah.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Your place or--</text>
+      <marks>
+        <mark at="15" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Mine. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She stands, all business. </text>
+    </para>
+    <para number="19">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">EXT. DIVE BAR - NIGHT</text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Beanie staggers out of the bar, tilting on his feet. Gemma hot on his heels, moving like an apex predator.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Right around the corner.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You sure you’re good to drive?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I’m good to do a lot of things.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Beanie snickers at the innuendo, rounding into --</text>
+    </para>
+    <para number="20">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">EXT. ALLEYWAY - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A long, empty alleyway. Shadows. Puddles. Rats.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>No cars.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">As Beanie's back is turned, Gemma slides the Japanese knife from her jeans.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Ah shit, did you get towed? That’s the worst.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma/TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Nah. It gets worse.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Beanie GASPS as a KNIFE IS THRUST INTO HIS SPINE!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>He collapses, his legs rendered useless instantly. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>His BLOOD-CURDLING SCREAMS echo down the alley. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Beanie dissolves into panicky tears as he claws at the asphalt, dragging himself forward.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>He spins onto his back, doing a half crab-walk as he tries to put distance between himself and --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma, who stalks patiently after him. A blood-slick knife in her hand. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Beanie CRIES OUT for help -- Gemma FLIPS THE KNIFE IN HER HAND -- Beanie buries his face behind his arms --</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Beanie</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>PLEASE DON’T --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The BLADE plummets into his chest! BLOOD SPURTS as it’s ripped out.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>We hear his blood-choked GURGLES as Gemma raises the knife for another blow --  </text>
+    </para>
+    <para>
+      <style basestyle="Transition"/>
+      <text bold="1">SMASH CUT TO:</text>
+    </para>
+    <para number="21">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S BEDROOM - NIGHT</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma rouses. Looks around. She’s in her bedroom. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She checks the time on her phone -- 3:56am.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Glances down at her outfit- cut up and doused in red stains. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Rolls her eyes. Climbs out of bed...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her bare feet land in a STICKY POOL OF RED LIQUID.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Ugh. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She pads out the door, following the trail of red --</text>
+    </para>
+    <para number="22">
+      <style basestyle="Scene Heading"/>
+      <text bold="1">INT. GEMMA’S APARTMENT - CONTINUOUS</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Down the hallway... </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Hey, would it kill you to clean up a bit before you tap out? I love the initiative, but it’s just --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She follows the trail into the kitchen... where it terminates in the butchered body of BEANIE lying face-down on the tile. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Torso riddled with puncture wounds. Ghost-white face drained of blood. Beanie somehow still in place.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>And in one excruciatingly long moment of revelation, she realizes that she’s actually covered in blood. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Her mouth wrenches open -- she takes a deep breath --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>A HAND CLAMPS OVER HER MOUTH.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA (o.s.)</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Don’t scream. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma emerges from behind her, as if appearing from thin air, and slowly pulls her hand away from Gemma’s mouth.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Just hear me out.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma ogles the body. Speaks in a hushed whisper.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Why the fuck would you do this?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma grins cheekily. Kicks him over onto his back. </text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma sees Beanie’s face... it registers...</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Holy shit! Do you know who that is?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Uh, yeah. Roland Pike. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text italic="1">Why the fuck would you do this?!</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Eliminating the competition!</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">But we don't need to do this! Our stuff is good enough!</text>
+      <marks>
+        <mark at="55" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teeN GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I saw what I needed to do. And I did it.</text>
+      <text revision="1"> Don't you remember in fourth grade when we stole Lauren C.'s collage and tore it up? Whatever it takes. </text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">But you're so good. You're so confident.</text>
+      <marks>
+        <mark at="40" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">You're talking to the girl who wrote "I suck" for ten straight pages in our journal.</text>
+      <marks>
+        <mark at="84" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">This is wrong. This is murder. This isn't who we are.</text>
+      <marks>
+        <mark at="53" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Did you forget all the ants we burned under the magnifying glass? The squirrels we caught and cut up?</text>
+      <marks>
+        <mark at="101" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">(Maybe an insert of the Spaghetti-O art from the beginning here, the textures now taking on a more ominous look.)</text>
+      <marks>
+        <mark at="113" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">The </text>
+      <text revision="1" underline="1">cat</text>
+      <text revision="1">?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">Gemma's stomach sinks. She remembers the cat. She shakes her head.</text>
+      <marks>
+        <mark at="62" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">No, that's not me. It doesn't define me. I worked through all that in therapy.</text>
+      <marks>
+        <mark at="78" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Yeah, well, I </text>
+      <text revision="1" underline="1">didn't</text>
+      <text revision="1">.</text>
+      <marks>
+        <mark at="21" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">gemma</text>
+      <marks>
+        <mark at="5" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">No. No. I'm past all this. I'm not crazy.</text>
+      <marks>
+        <mark at="40" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teen GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Bitch, you are talking to </text>
+      <text revision="1" underline="1">yourself</text>
+      <text revision="1"> right now.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma flips on the InSinkErator. The motor FIRES UP. </text>
+      <marks>
+        <mark at="0" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>We can’t --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>ROLAND (fka Beanie) MOANS on the ground. </text>
+      <text underline="1">He’s not dead</text>
+      <text>. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma and Teen Gemma SCREAM and jolt back in unison.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Oh my God. Oh my God. We have to get him to the hospital! </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Listen to me very carefully. I know this is a lot. I should’ve run this by you first. My bad.  </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma notices the KNIFE clutched in Teen Gemma’s hand.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>But I did this for us. If he gets out of here, we’re finished. Forever. We will never come back from this.</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>beat</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Just don’t watch, okay?</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma’s eyes well with tears. Teen Gemma isn’t wrong. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She drops her head. The decision is made. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma advances on Roland, knife arching back...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>But Gemma grabs THE 2X4 WRAPPED IN ROPE...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>...and LACES HER in the HEAD!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma SLAMS INTO THE FRIDGE.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Back. The fuck. </text>
+      <text italic="1">Off.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She dusts herself off and spins around, her face stamped with paint lines. She grabs the wine-stained MASON JAR and --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>SMASHES Gemma in the jaw! Teeth CRACK as blood SPRAYS from her mouth.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She crumples onto the kitchen counter -- her hand juts out and grabs the X-ACTO KNIFE -- she whips around --</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>STABS Teen Gemma IN THE FACE! Teen Gemma reels, hissing through her sliced-open cheek, blood gushing out -- </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Teen Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Bitch! After everything I’ve done for you!</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Get over yourself! We’re not KILLING HIM!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>They charge towards each other -- </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">FLASH TO ROLAND’S POV: There is just one Gemma, and she’s slogging through a knock-down drag-out brawl with herself.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">Blocking her own kicks. Punching her own stomach. Pulling her own hair. Bending back her own fingers. Fighting dirty.</text>
+      <text> </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Roland gawks in disbelief, almost more confused than he is scared. Almost. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>The women slam into the wall, and Gemma’s PHONE is knocked loose, sliding across the floor...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Landing just feet away from Roland. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Hope blooms in his eyes as he reaches for it. His fingers are just a foot or two away, so he starts slowly... painfully... tortuously pulling himself towards it. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>WITH GEMMA AND TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>They’re bloody and battered, each heaving for breath.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You didn’t have to do this. We had this in the bag.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>TEEN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>You don’t know that.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I do. You and me, we </text>
+      <text italic="1">did it.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma bleeds out. Teen Gemma listens.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Parenthetical"/>
+      <text>heaving</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I know it because I’ve looked back for so long, wondering whether or not I ever really had it, or if I was just good for my age.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma fumes. Insulted to her core. </text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>Gemma</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I guess you’re not so sure either.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma gets right up in her face.</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>teeN GEMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>I don’t have a single fucking doubt.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>With one last steadying breath, Gemma says...</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text>GeMMA</text>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text>Then why’d you take out the competition?</text>
+    </para>
+    <para>
+      <style basestyle="Character"/>
+      <text revision="1">teeN GEMMA</text>
+      <marks>
+        <mark at="10" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Dialogue"/>
+      <text revision="1">Because I know we SUCK!</text>
+      <marks>
+        <mark at="23" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CUT TO Roland’s mangled body. Teen Gemma is </text>
+      <text italic="1">livid.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma bends down. Rises back up with the KNIFE once again clutched in her hands. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text underline="1">But now she’s looking at Gemma, not Roland.</text>
+      <text> </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Teen Gemma rushes Gemma -- Gemma grabs both of her arms -- struggling to hold her off.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>Gemma twists the knife towards Teen Gemma... Teen Gemma twists it back towards her...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>PUSHING PAST the fight as we hear the knife land with a wet splat. Then a grunt of pain. And a body hitting the floor.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>LANDING on Roland, still reaching for the phone. His fingers just graze it... he gets a grip... </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">Thunk</text>
+      <text>. A bare foot lands on the phone and slides it away.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>ROLAND’S POV as he looks up at his tormentor...</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>GEMMA leers over him, silhouetted by the ceiling lights. Knife in hand.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>She doesn’t look like a person. She looks like the void where a person used to be. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>LIGHT FLARES off the blade as it shoots downwards. </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>BLOOD SPLATTERS across the kitchen.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CLOSE ON Gemma’s phone as a stream of blood shoots across it.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>It CHIMES with a NEW MESSAGE from LAWRENCE: </text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text italic="1">Gemma, this is incredible! I knew you still had it! Already sent to the lads, back to you ASAP!</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>CUT WIDE to reveal the whole bloody massacre. Roland lies dead on the floor. Gemma rinses off her knife.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text revision="1">She walks over, dipping her hand on Roland's bloody chest.</text>
+      <marks>
+        <mark at="58" revision="1"/>
+      </marks>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text>PULL BACK to reveal the album artwork on the easel</text>
+      <text revision="1">. She adds the final touch - a smear of Roland's blood</text>
+      <text>. The snoozing man on the floor, as a woman rinses off dishes.</text>
+    </para>
+    <para>
+      <style basestyle="Action"/>
+      <text bold="1">THE END.</text>
+    </para>
+  </paragraphs>
+  <titlepage>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text size="12" underline="1">SHADOW YOU</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text size="12">Written by</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text size="12">Abiel Bruhn</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text size="12">story by</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text size="12">Mike Bernstein</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" align="center" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text></text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text size="12">Alpen Pictures</text>
+    </para>
+    <para>
+      <style basestyle="Normal Text" leftindent="-127"/>
+      <text size="12">4.27.23</text>
+    </para>
+  </titlepage>
+  <a_pages/>
+  <ab_pages/>
+  <spelling language="en_US">
+    <user_dictionary/>
+    <ignored/>
+  </spelling>
+  <lists>
+    <characters>
+      <character name="ROM-COM Client"/>
+      <character name="Gemma"/>
+      <character name="Instructor"/>
+      <character name="ROLAND"/>
+      <character name="LAWRENCE"/>
+      <character name="The double"/>
+      <character name="Action client"/>
+      <character name="Gemma/double"/>
+      <character name="Bartender"/>
+      <character name="Beanie"/>
+      <character name="Interviewer"/>
+      <character name="Teen GEMMA"/>
+      <character name="Gemma/teen gemma"/>
+      <character name="reporter"/>
+      <character name="MARKETING EXEC"/>
+      <character name="Voice"/>
+      <character name="Exec 2"/>
+      <character name="Guy"/>
+    </characters>
+    <locations>
+      <location name="GEMMA'S APARTMENT"/>
+      <location name="CAFE"/>
+      <location name="DIVE BAR"/>
+      <location name="GEMMA'S BEDROOM"/>
+      <location name="ALLEWAY -NIGHT"/>
+      <location name="ALLEWAY"/>
+      <location name="GEMMA'S LIVING ROOM"/>
+      <location name="MARKETING FIRM"/>
+      <location name="GEMMA'S BATHROOM"/>
+    </locations>
+    <scene_intros>
+      <scene_intro name="INT."/>
+      <scene_intro name="EXT."/>
+      <scene_intro name="I/E."/>
+    </scene_intros>
+    <scene_times>
+      <scene_time name="DAY"/>
+      <scene_time name="NIGHT"/>
+      <scene_time name="AFTERNOON"/>
+      <scene_time name="MORNING"/>
+      <scene_time name="EVENING"/>
+      <scene_time name="LATER"/>
+      <scene_time name="MOMENTS LATER"/>
+      <scene_time name="CONTINUOUS"/>
+      <scene_time name="THE NEXT DAY"/>
+      <scene_time name="MAGIC HOUR"/>
+      <scene_time name="DAWN"/>
+      <scene_time name="DUSK"/>
+      <scene_time name="SAME"/>
+      <scene_time name="SAME TIME"/>
+      <scene_time name="LATE NIGHT"/>
+      <scene_time name="HOURS LATER"/>
+    </scene_times>
+    <extensions>
+      <extension name="(V.O.)"/>
+      <extension name="(O.S.)"/>
+      <extension name="(O.C.)"/>
+      <extension name="(CONT'D)"/>
+      <extension name="(SUBTITLE)"/>
+    </extensions>
+    <transitions>
+      <transition name="CUT TO:"/>
+      <transition name="FADE IN:"/>
+      <transition name="FADE OUT."/>
+      <transition name="FADE TO:"/>
+      <transition name="DISSOLVE TO:"/>
+      <transition name="BACK TO:"/>
+      <transition name="MATCH CUT TO:"/>
+      <transition name="JUMP CUT TO:"/>
+      <transition name="FADE TO BLACK."/>
+      <transition name="SMASH CUT TO:"/>
+      <transition name="CUT TO BLACK."/>
+      <transition name="TIME CUT:"/>
+    </transitions>
+    <revision_colors>
+      <revision_color name="White" index="0" color_name="White" color_index="0" mark=""/>
+      <revision_color name="Blue Rev. (mm/dd/yy)" index="1" color_name="Blue" color_index="1" mark="*"/>
+      <revision_color name="Pink Rev. (mm/dd/yy)" index="2" color_name="Pink" color_index="2" mark="*"/>
+      <revision_color name="Yellow Rev. (mm/dd/yy)" index="3" color_name="Yellow" color_index="3" mark="*"/>
+      <revision_color name="Green Rev. (mm/dd/yy)" index="4" color_name="Green" color_index="4" mark="*"/>
+      <revision_color name="Goldenrod Rev. (mm/dd/yy)" index="5" color_name="Goldenrod" color_index="5" mark="*"/>
+      <revision_color name="Buff Rev. (mm/dd/yy)" index="6" color_name="Buff" color_index="6" mark="*"/>
+      <revision_color name="Salmon Rev. (mm/dd/yy)" index="7" color_name="Salmon" color_index="7" mark="*"/>
+      <revision_color name="Cherry Rev. (mm/dd/yy)" index="8" color_name="Cherry" color_index="8" mark="*"/>
+      <revision_color name="Tan Rev. (mm/dd/yy)" index="9" color_name="Tan" color_index="9" mark="*"/>
+      <revision_color name="2nd White Rev. (mm/dd/yy)" index="10" color_name="White" color_index="0" mark="*"/>
+      <revision_color name="2nd Blue Rev. (mm/dd/yy)" index="11" color_name="Blue" color_index="1" mark="*"/>
+      <revision_color name="2nd Pink Rev. (mm/dd/yy)" index="12" color_name="Pink" color_index="2" mark="*"/>
+      <revision_color name="2nd Yellow Rev. (mm/dd/yy)" index="13" color_name="Yellow" color_index="3" mark="*"/>
+      <revision_color name="2nd Green Rev. (mm/dd/yy)" index="14" color_name="Green" color_index="4" mark="*"/>
+      <revision_color name="2nd Goldenrod Rev. (mm/dd/yy)" index="15" color_name="Goldenrod" color_index="5" mark="*"/>
+      <revision_color name="2nd Buff Rev. (mm/dd/yy)" index="16" color_name="Buff" color_index="6" mark="*"/>
+      <revision_color name="2nd Salmon Rev. (mm/dd/yy)" index="17" color_name="Salmon" color_index="7" mark="*"/>
+      <revision_color name="2nd Cherry Rev. (mm/dd/yy)" index="18" color_name="Cherry" color_index="8" mark="*"/>
+      <revision_color name="2nd Tan Rev. (mm/dd/yy)" index="19" color_name="Tan" color_index="9" mark="*"/>
+    </revision_colors>
+    <tag_categories>
+      <tag_category name="Synopsis" color="#000000" show="true" uuid="8e5e75c2-713b-47df-a75f-f12648b98ded"/>
+      <tag_category name="Cast Members" color="#0036B7" show="true" uuid="8f6683ce-091e-4bdf-8328-ffb77e533f72"/>
+      <tag_category name="Background Actors" color="#941100" show="true" uuid="9f77c0ce-f451-4f56-a07a-38207ff112ef"/>
+      <tag_category name="Stunts" color="#941100" show="true" uuid="9ae4b95f-f5b0-4f13-9ba5-f131db00665a"/>
+      <tag_category name="Vehicles" color="#941100" show="true" uuid="7b4a0c59-cf8d-45c5-b8e2-1021c12b12df"/>
+      <tag_category name="Props" color="#941100" show="true" uuid="3673492a-664a-44e5-a981-0a8fcffdf1b3"/>
+      <tag_category name="Camera" color="#941100" show="true" uuid="a4ee63ed-8113-4d04-8950-cb24eebe74e2"/>
+      <tag_category name="Special Effects" color="#941100" show="true" uuid="96ccbf08-5282-4741-9526-1f87c4507a65"/>
+      <tag_category name="Wardrobe" color="#941100" show="true" uuid="4695e56a-4a44-47ff-b668-561b6b26e62f"/>
+      <tag_category name="Makeup/Hair" color="#941100" show="true" uuid="cc593c50-ae61-430c-aa7b-9c23aabf5ae3"/>
+      <tag_category name="Animals" color="#941100" show="true" uuid="b276f264-f116-4a71-8019-e27ac7ae1a11"/>
+      <tag_category name="Animal Wrangler" color="#941100" show="true" uuid="c2ba2979-3743-4fca-b14b-5611ba97f530"/>
+      <tag_category name="Music" color="#941100" show="true" uuid="f9aa25cf-15e6-43a2-8e04-45402779a727"/>
+      <tag_category name="Sound" color="#941100" show="true" uuid="a9edf2a3-1d71-45e0-99f8-a63e14f537c9"/>
+      <tag_category name="Art Department" color="#941100" show="true" uuid="c86eae40-3b01-41c3-a7de-6859e6ec971d"/>
+      <tag_category name="Set Dressing" color="#941100" show="true" uuid="3d304168-5ab9-4ad0-b469-7001e7b96801"/>
+      <tag_category name="Greenery" color="#941100" show="true" uuid="9bb2bebb-ba87-40ba-81de-c842790ee9f4"/>
+      <tag_category name="Special Equipment" color="#941100" show="true" uuid="7159c037-31a7-41ed-a948-b194b3f9be43"/>
+      <tag_category name="Security" color="#941100" show="true" uuid="d1d1f295-d2bb-4bae-a846-ba71c5e5a9d2"/>
+      <tag_category name="Additional Labor" color="#941100" show="true" uuid="80877b70-58d0-4881-96e1-b7aa1c7f1baf"/>
+      <tag_category name="Visual Effects" color="#941100" show="true" uuid="73f112c5-ebf6-483e-927e-4c21d3cf9ff1"/>
+      <tag_category name="Mechanical Effects" color="#941100" show="true" uuid="076f2f4a-5d2e-40f6-9d18-74811de445b0"/>
+      <tag_category name="Miscellaneous" color="#941100" show="true" uuid="ce04f547-f7ee-40c9-ab66-d95a0c98034e"/>
+      <tag_category name="Notes" color="#941100" show="true" uuid="67605ea1-853a-4634-99e3-e870d54ac813"/>
+      <tag_category name="Script Day" color="#941100" show="true" uuid="63c140da-ef2b-491a-b416-b46f461abb89"/>
+      <tag_category name="Unit" color="#941100" show="true" uuid="849f1ebf-5507-4f33-bff6-3a5b4d73be14"/>
+      <tag_category name="Sequence" color="#941100" show="true" uuid="70877d87-30ef-45b6-be46-c6fa94b83a71"/>
+      <tag_category name="Location" color="#941100" show="true" uuid="c5e89e4d-f83e-4c28-950c-92a63f1b5f26"/>
+      <tag_category name="Comments" color="#941100" show="true" uuid="216f33fd-fc42-4269-be01-b05b18f815a0"/>
+    </tag_categories>
+    <highlight_rules/>
+  </lists>
+</document>
