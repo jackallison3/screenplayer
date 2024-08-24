@@ -25,7 +25,7 @@ The ScreenPlayer plugin for Godot 4 allows you to import screenplays saved in [O
 * **Do not change the structure of the populated nodes, or your ScenePlayer will break**.
 
 ### Preparing your locations
-* Under the `Locations` node, a `CanvasLayer` will have populated for each of your locations with a `LocationCanvasModulate` child. Add the background element for each of your scenes as a child to the `CanvasLayer` named for that location. You can instantiate another scene as a child, or add a `TextureRect`, or `ColorRect`, or anything you'd like as the backdrop for that scene. **Just make sure it is added as a child to the `CanvasLayer` named for that location.
+* Under the `Locations` node, a `CanvasLayer` will have populated for each of your locations with a `LocationCanvasModulate` child. Add the background element for each of your scenes as a child to the `CanvasLayer` named for that location. You can instantiate another scene as a child, or add a `TextureRect`, or `ColorRect`, or anything you'd like as the backdrop for that scene. **Just make sure it is added as a child to the `CanvasLayer` named for that location.**
 
 ### Preparing your characters
 * Under the `Characters` node, an `AnimatedSprite2D` will have populated for each character in your script, with a `CharacterAnimationPlayer` child.
