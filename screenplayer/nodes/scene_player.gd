@@ -9,7 +9,7 @@ signal scene_complete
 
 @export_category("ScenePlayer Settings")
 @export var dialogue_box_scene: PackedScene
-@export var play_on_ready: bool = false
+@export var play_on_ready: bool = true
 @export var next_button_mapping: String = "ui_accept"
 @export var transition_characters_offstage_when_inactive: bool = true
 @export var fade_speed: float = 1.0

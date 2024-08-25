@@ -204,7 +204,26 @@ func parse_text(parser: XMLParser) -> String:
 	while parser.read() != ERR_FILE_EOF:
 		if parser.get_node_type() == XMLParser.NODE_ELEMENT and parser.get_node_name() == "text":
 			if parser.read() == OK and parser.get_node_type() == XMLParser.NODE_TEXT:
+				if parser.has_attribute("bold"):
+					text_to_add += "[b]"
+				if parser.has_attribute("italic"):
+					text_to_add += "[i]"
+				if parser.has_attribute("strikethrough"):
+					text_to_add += "[s]"
+				if parser.has_attribute("underline"):
+					text_to_add += "[u]"
+
 				text_to_add += parser.get_node_data()
+
+				if parser.has_attribute("underline"):
+					text_to_add += "[/u]"
+				if parser.has_attribute("strikethrough"):
+					text_to_add += "[/s]"
+				if parser.has_attribute("italic"):
+					text_to_add += "[/i]"
+				if parser.has_attribute("bold"):
+					text_to_add += "[/b]"
+
 		elif parser.get_node_type() == XMLParser.NODE_ELEMENT_END and parser.get_node_name() == "para":
 			break
 	return text_to_add

@@ -61,6 +61,7 @@ size_flags_vertical = 3
 
 [node name="DialogueLabel" type="RichTextLabel" parent="DialoguePanelContainer/Panel/VBoxContainer/MarginContainer/HBoxContainer/MarginContainer"]
 layout_mode = 2
+bbcode_enabled = true
 size_flags_vertical = 3
 theme_type_variation = &"DialogueTextLabel"
 
@@ -110,6 +111,7 @@ theme_type_variation = &"NamePanel"
 layout_mode = 2
 
 [node name="NameLabel" type="RichTextLabel" parent="NamePanelContainer/MarginContainer"]
+bbcode_enabled = true
 clip_contents = false
 layout_mode = 2
 theme_type_variation = &"NameTextLabel"

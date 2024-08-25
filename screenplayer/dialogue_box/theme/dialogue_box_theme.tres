@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=5 format=3 uid="uid://ckeu2vfxcih8"]
+[gd_resource type="Theme" load_steps=7 format=3 uid="uid://ckeu2vfxcih8"]
 
 [ext_resource type="FontFile" uid="uid://dg04djp0mhjrk" path="res://addons/screenplayer/dialogue_box/theme/font/PixelOperator-Bold.ttf" id="1_71lv6"]
 [ext_resource type="FontFile" uid="uid://c3hmp0ys45hx1" path="res://addons/screenplayer/dialogue_box/theme/font/PixelOperator.ttf" id="1_e0t15"]
@@ -26,16 +26,19 @@ expand_margin_left = 10.0
 expand_margin_right = 10.0
 shadow_size = 3
 
+[sub_resource type="FontVariation" id="FontVariation_budyg"]
+base_font = ExtResource("1_e0t15")
+variation_transform = Transform2D(1, 0, 0, 1, 0, 2)
+
+[sub_resource type="FontVariation" id="FontVariation_7aacu"]
+base_font = ExtResource("1_e0t15")
+variation_transform = Transform2D(1, 0.3, 0, 1, 0, 0)
+
 [resource]
 default_font = ExtResource("1_e0t15")
-default_font_size = 20
+default_font_size = 30
 DialoguePanel/base_type = &"Panel"
 DialoguePanel/styles/panel = SubResource("StyleBoxFlat_yuq30")
-DialogueTextLabel/base_type = &"RichTextLabel"
-DialogueTextLabel/font_sizes/bold_italics_font_size = 30
-DialogueTextLabel/font_sizes/italics_font_size = 30
-DialogueTextLabel/font_sizes/mono_font_size = 30
-DialogueTextLabel/font_sizes/normal_font_size = 30
 MarginContainer/constants/margin_bottom = 10
 MarginContainer/constants/margin_left = 10
 MarginContainer/constants/margin_right = 10
@@ -50,4 +53,6 @@ NameTextLabel/font_sizes/mono_font_size = 25
 NameTextLabel/font_sizes/normal_font_size = 25
 NameTextLabel/fonts/normal_font = ExtResource("1_71lv6")
 RichTextLabel/fonts/bold_font = ExtResource("1_71lv6")
+RichTextLabel/fonts/bold_italics_font = SubResource("FontVariation_budyg")
+RichTextLabel/fonts/italics_font = SubResource("FontVariation_7aacu")
 RichTextLabel/fonts/normal_font = ExtResource("1_e0t15")
