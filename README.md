@@ -61,3 +61,5 @@ With your Locations and Characters prepared, your cutscene will be ready to play
 * `Dialogue Box Fade Speed`: The speed * delta at which the Dialogue Box and Name Panel will fade in and out.
 * `Characters Start Onstage`: Enable to have all characters in scene onstage when the cutscene begins. Disable and they will enter when active.
 * `Free Screen Player on Scene End`: Enable to have `ScreenPlayer` `queue_free()` when the scene is complete. *Warning: This will cause a crash if ScreenPlayer is the root node.*
+
+ScenePlayer will emit a `scene_complete` signal when finished.
