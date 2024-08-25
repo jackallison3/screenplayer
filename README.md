@@ -59,6 +59,7 @@ With your Locations and Characters prepared, your cutscene will be ready to play
 * `Transition Characters Offstage When Inactive`: Enable to have characters transition off when they are not the active speaker. Disable to have characters stay onstage when not speaking.
 * `Fade Speed`: The speed * delta at which locations and characters will fade in and out.
 * `Dialogue Box Fade Speed`: The speed * delta at which the Dialogue Box and Name Panel will fade in and out.
+* `Last Press Interval`: How long in seconds after the last button press ScenePlayer waits before accepting another.
 * `Characters Start Onstage`: Enable to have all characters in scene onstage when the cutscene begins. Disable and they will enter when active.
 * `Free Screen Player on Scene End`: Enable to have `ScreenPlayer` `queue_free()` when the scene is complete. *Warning: This will cause a crash if ScreenPlayer is the root node.*
 
