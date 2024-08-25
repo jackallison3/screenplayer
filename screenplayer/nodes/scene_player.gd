@@ -112,7 +112,6 @@ func _process(delta: float) -> void:
 		if current_location_canvas_modulate.color.a == 0.0:
 			fade_out = false
 			scene_complete.emit()
-			print("End Scene")
 			if free_screen_player_on_scene_end:
 				get_parent().queue_free()
 		else:
