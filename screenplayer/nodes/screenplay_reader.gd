@@ -2,8 +2,6 @@
 @icon("res://icon.svg")
 extends Node
 
-#TODO: Parse bold and italic into bbcode
-
 var script_file : set = _set_script_file
 var script_file_loaded: bool = false
 var use_scene_number: bool = false : set = _set_use_scene_number
